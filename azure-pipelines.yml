@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: Jessica-AP
+  vmImage: ubuntu-16.04
 
 steps:
 - task: NodeTool@0
